@@ -143,14 +143,14 @@ header {
 .nav__links {
   background-color: rgb(102, 102, 102, 1);
   position: absolute;
-  top: 0px;
-  bottom: 340px;
+  top: 3px;
+  bottom: 330px;
   left: 0;
   right: 0;
   padding: 0;
   display: grid;
   align-content: center;
-  gap: 1rem;
+  gap: 0rem;
   padding-left: 5%;
 
   transform: var(--state-menu);
