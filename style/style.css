@@ -92,6 +92,10 @@ h4 {
   color: rgb(3, 3, 3);
 }
 
+header {
+  margin-bottom: -600px;
+}
+
 .nav {
   --state-close: scale(0);
   --state-hamburguer: scale(1);
@@ -139,14 +143,14 @@ h4 {
 .nav__links {
   background-color: rgb(102, 102, 102, 1);
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 1px;
+  bottom: 340px;
   left: 0;
   right: 0;
   padding: 0;
   display: grid;
   align-content: center;
-  gap: 2em;
+  gap: 1rem;
   padding-left: 5%;
 
   transform: var(--state-menu);
@@ -170,15 +174,17 @@ h4 {
     --state-menu: translate(0);
   }
 
+
   .nav:target {
     --state-close: scale(0);
+    
   }
 
   .nav__links {
     padding: 0;
     background-color: unset;
     position: unset;
-    gap: 1.5em;
+    gap: 1.5rem;
     grid-auto-flow: column;
 
     transform: unset;
