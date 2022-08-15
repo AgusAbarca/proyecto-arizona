@@ -150,7 +150,6 @@ header {
   padding: 0;
   display: grid;
   align-content: center;
-  gap: 0rem;
   padding-left: 5%;
 
   transform: var(--state-menu);
