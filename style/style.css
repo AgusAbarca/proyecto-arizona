@@ -303,7 +303,7 @@ li a:hover {
 }
 
 /*---COLOR BOTONES---*/
-input {
+/* input {
   background-color: rgb(255, 216, 117);
   text-align: center;
   
@@ -326,9 +326,6 @@ input {
   text-align: center;
 }
 
-aside input {
-align-content: center;
-}
 
 /*---SECCIÓN CHARLEMOS---*/
 fieldset {
