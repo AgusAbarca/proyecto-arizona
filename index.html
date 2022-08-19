@@ -26,8 +26,9 @@
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class="container-fluid">
+      <div class="row">
+      <nav class="col-12 col-md-10">
         <a href="index.html" class="enlace">
           <img src="./imagenes/logoarizona.png" alt="" class="logo" />
         </a>
@@ -43,47 +44,56 @@
           <li><a href="./pages/sobre-arizona.html">Sobre arizona</a></li>
         </ul>
       </nav>
+    </div>
     </header>
-    <div class="titulohome">
+    
+    <div class="container-fluid">
+      <div class="row">
+    <div class="titulohome col-12">
       <h1 class="titulounoindex">Lleva tu negocio a un nuevo nivel</h1>
       <h2 class="titulodosindex">Community Management | Desarrollo web | Marketing Digital</h2>
     </div>
+  </div>
+  </div>
 
+  <div class="container-fluid">
+    <div class="row">
     <div
       id="carouselExampleControls"
-      class="carousel slide"
+      class="carousel slide col-12"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-inner col-12 col-md-10">
+        <div class="carousel-item active col-12 col-md-10">
           <img
             src="./imagenes/carrousel1.jpg"
-            class="d-block w-100"
+            class="d-block w-100 col-12 col-md-10"
             alt="marketing-online-celular-y-computadora"
           />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item col-12 col-md-10">
           <img
             src="./imagenes/carrousel2.jpg"
-            class="d-block w-100"
+            class="d-block w-100 col-12 col-md-10"
             alt="dispositivos-electrónicos-de-un-community-manager-para-redes-sociales"
           />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item col-12 col-md-10">
           <img
             src="./imagenes/carrousel3.jpg"
-            class="d-block w-100"
+            class="d-block w-100 col-12 col-md-10"
             alt="contenido-organico-identidad-digital-marketing-online"
           />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item col-12 col-md-10">
           <img
             src="./imagenes/carrousel4.jpg.jpg"
-            class="d-block w-100"
+            class="d-block w-100 col-12 col-md-10"
             alt="redes-sociales-community-management"
           />
         </div>
       </div>
+      
       <button
         class="carousel-control-prev"
         type="button"
@@ -93,8 +103,9 @@
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
+
       <button
-        class="carousel-control-next"
+        class="carousel-control"
         type="button"
         data-bs-target="#carouselExampleControls"
         data-bs-slide="next"
@@ -102,28 +113,34 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+
     </div>
-        <article>
-          <h2>¿No sabes qué publicar en tus redes?</h2>
-          <p class="texto-article-index">
+    </div>
+    </div>
+       <section class="container"> 
+      <article class="row">
+          <h2 class="col-12">¿No sabes qué publicar en tus redes?</h2>
+          <p class="texto-article-index col-12">
             En Arizona te ayudamos a armar un plan de contenido mensual, lleno
             de ideas que van a llevar a tu marca a un nuevo nivel.
           </p>
           <a href="./pages/charlemos.html">
-            <input type="button" value="Quiero mi plan de contenido"
+            <input type="button" value="Quiero mi plan de contenido" class="btn btn-outline-light"
           /></a>
         </article>
       </section>
+
     </main>
 
-    <aside>
-      <article class="boton-texto-aside">
+    <aside class="container">
+      <div class="row">
+      <article class="boton-texto-aside col-12">
         <h3>Creamos tu página web</h3>
         <p class="texto-aside">Acorde a tus objetivos y tu presupuesto.</p>
-        <a href="./pages/charlemos.html"> <input type="button" value="Quiero más información" /></a>
+        <a href="./pages/charlemos.html"> <input type="button" value="Quiero más información" class="btn btn-outline-light"/></a>
       </article>
 
-      <article class="boton-texto-aside">
+      <article class="boton-texto-aside col-12">
         <h3>¿Estas empezando?</h3>
         <p class="texto-aside">
           Si todavía no tenés los medios para contratar a alguien que lo haga
@@ -131,8 +148,9 @@
           capacitate gratis para hacer que exploten tus redes.
         </p>
         <a href="./pages/charlemos.html">
-          <input type="button" value="Ir a la biblioteca de conocimiento"
+          <input type="button" value="Ir a la biblioteca de conocimiento" class="btn btn-outline-light"
         /></a>
+      </div>
       </article>
     </aside>
 
@@ -145,12 +163,12 @@
             href="https://instagram.com/arizona.agencia?igshid=YmMyMTA2M2Y="
             target="_blank"
           >
-            <input type="button" value="Instagram"
+            <input type="button" value="Instagram" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
           <a href="https://www.facebook.com/arizona.agencia/" target="_blank">
-            <input type="button" value="Facebook"
+            <input type="button" value="Facebook" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
@@ -158,12 +176,12 @@
             href="https://www.linkedin.com/in/arizona-agencia-a891b8205"
             target="_blank"
           >
-            <input type="button" value="LinkedIn"
+            <input type="button" value="LinkedIn" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
           <a href="https://wa.me/qr/JW7KSKA32Q5RE1" target="_blank">
-            <input type="button" value="WhatsApp"
+            <input type="button" value="WhatsApp" class="btn btn-outline-light"
           /></a>
         </div>
         <p class="footer-copy">

@@ -26,8 +26,9 @@
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class="container-fluid">
+      <div class="row">
+      <nav class="col-12 col-md-10">
         <a href="index.html" class="enlace">
           <img src="../imagenes/logoarizona.png" alt="" class="logo" />
         </a>
@@ -43,6 +44,7 @@
           <li><a href="../pages/sobre-arizona.html">Sobre arizona</a></li>
         </ul>
       </nav>
+    </div>
     </header>
 
     <main>
@@ -53,7 +55,9 @@
             En este video te mostramos todo lo que tenés que saber sobre sus
             tareas y objetivos principales.
           </p>
-          <iframe
+          <div class="container-fluid">
+            <div class="rows">
+          <iframe class="col-7"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/kVNQIoyXojI"
@@ -62,6 +66,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+        </div>
+        </div>
         </article>
       </section>
     </main>
@@ -73,8 +79,8 @@
           creativas para todo tu mes en todas las redes en las que se encuentre
           tu marca.
         </p>
-        <a href="#">
-          <input type="button" value="Quiero mi plan de contenido"
+        <a href="./charlemos.html">
+          <input type="button" value="Quiero mi plan de contenido" class="btn btn-outline-light"
         /></a>
       </article>
 
@@ -85,7 +91,7 @@
           En Arizona nos encargamos de todas tus plataformas para que vos te
           encargues de tu negocio.
         </p>
-        <a href="#"> <input type="button" value="Quiero más información" /></a>
+        <a href="./charlemos.html"> <input type="button" value="Quiero más información" class="btn btn-outline-light"/></a>
       </article>
     </aside>
     <!--   Tarjetas-->
@@ -105,7 +111,7 @@
             Podemos crear la identidad corporativa de tu empresa. Diseño ,
             Maquetación de folletos, Catálogos, Papelería y mucho más.
           </p>
-          <a href="#">Leer Màs</a>
+          <a href="./charlemos.html">Leer Màs</a>
         </div>
       </div>
       <div class="card">
@@ -118,7 +124,7 @@
             Nosotros creamos y optimizamos tus perfiles en las Redes Sociales.
             Importantes para que tu presencia online sea completa.
           </p>
-          <a href="#">Leer Màs</a>
+          <a href="./tu-plan-de-redes.html">Leer Màs</a>
         </div>
       </div>
       <div class="card">
@@ -134,7 +140,7 @@
             disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor
             de contenido fácil.
           </p>
-          <a href="#">Leer Màs</a>
+          <a href="./arma-tu-pagina-web.html">Leer Màs</a>
         </div>
       </div>
     </div>
@@ -149,12 +155,12 @@
             href="https://instagram.com/arizona.agencia?igshid=YmMyMTA2M2Y="
             target="_blank"
           >
-            <input type="button" value="Instagram"
+            <input type="button" value="Instagram" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
           <a href="https://www.facebook.com/arizona.agencia/" target="_blank">
-            <input type="button" value="Facebook"
+            <input type="button" value="Facebook" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
@@ -162,20 +168,20 @@
             href="https://www.linkedin.com/in/arizona-agencia-a891b8205"
             target="_blank"
           >
-            <input type="button" value="LinkedIn"
+            <input type="button" value="LinkedIn" class="btn btn-outline-light"
           /></a>
         </div>
         <div class="boton-redes-footer">
           <a href="https://wa.me/qr/JW7KSKA32Q5RE1" target="_blank">
-            <input type="button" value="WhatsApp"
+            <input type="button" value="WhatsApp" class="btn btn-outline-light"
           /></a>
         </div>
-
         <p class="footer-copy">
           Arizona Agencia © Todos los derechos reservados - 2022
         </p>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

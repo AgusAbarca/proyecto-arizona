@@ -326,6 +326,10 @@ input {
   text-align: center;
 }
 
+aside input {
+align-content: center;
+}
+
 /*---SECCIÓN CHARLEMOS---*/
 fieldset {
   color: rgb(255, 255, 255);
